@@ -10,14 +10,15 @@
         "sort-packages": true
     },
   "repositories": [
-    {
-      "type" : "vcs",
-      "url" : "git@github.com:glo71317/laminas-mail.git"
-    },
-    {
-      "type" : "vcs",
-      "url" : "git@github.com:glo71317/laminas-mime.git"
-    },
+      {
+        "type" : "vcs",
+        "url" : "git@github.com:glo71317/laminas-mail.git"
+      },
+      {
+        "type" : "vcs",
+        "url" : "git@github.com:glo71317/laminas-mime.git"
+      }
+    ],
     "require": {
         "php": "~8.2.0||~8.3.0||~8.4.0",
         "ext-curl": "*",
