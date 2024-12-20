@@ -12,11 +12,11 @@
   "repositories": [
       {
         "type" : "vcs",
-        "url" : "git@github.com:glo71317/laminas-mail.git"
+        "url" : "git@github.com:magento-commerce/laminas-mail.git"
       },
       {
         "type" : "vcs",
-        "url" : "git@github.com:glo71317/laminas-mime.git"
+        "url" : "git@github.com:magento-commerce/laminas-mail.git"
       }
     ],
     "require": {
@@ -37,8 +37,8 @@
         "laminas/laminas-code": "^4.13.0",
         "laminas/laminas-escaper": "^2.13.0",
         "laminas/laminas-http": "^2.19.0",
-        "laminas/laminas-mail": "dev-php8.4_support",
-        "laminas/laminas-mime": "dev-php8.4_support",
+        "magento/laminas-mail": "dev-develop",
+        "laminas/laminas-mime": "dev-develop",
         "laminas/laminas-stdlib": "^3.18.0",
         "laminas/laminas-uri": "^2.11.0",
         "laminas/laminas-validator": "^2.43.0",
