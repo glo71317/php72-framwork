@@ -11,12 +11,8 @@
     },
   "repositories": [
       {
-        "type" : "vcs",
-        "url" : "git@github.com:magento-commerce/laminas-mail.git"
-      },
-      {
-        "type" : "vcs",
-        "url" : "git@github.com:magento-commerce/laminas-mail.git"
+        "type": "composer",
+        "url": "https://connect20-qa01.magedevteam.com/"
       }
     ],
     "require": {
@@ -37,8 +33,8 @@
         "laminas/laminas-code": "^4.13.0",
         "laminas/laminas-escaper": "^2.13.0",
         "laminas/laminas-http": "^2.19.0",
-        "magento/laminas-mail": "dev-develop",
-        "laminas/laminas-mime": "dev-develop",
+        "magento/laminas-mail": "^1.0.0",
+        "magento/laminas-mime": "^1.0.0",
         "laminas/laminas-stdlib": "^3.18.0",
         "laminas/laminas-uri": "^2.11.0",
         "laminas/laminas-validator": "^2.43.0",
