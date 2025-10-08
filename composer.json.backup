@@ -1,0 +1,71 @@
+{
+    "name": "magento/framework",
+    "description": "N/A",
+    "type": "magento2-library",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": false
+        }
+    },
+  "repositories": [
+      {
+        "type": "composer",
+        "url": "https://connect20-qa01.magedevteam.com/"
+      }
+    ],
+    "require": {
+        "php": "~8.2.0||~8.3.0||~8.4.0",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-gd": "*",
+        "ext-hash": "*",
+        "ext-iconv": "*",
+        "ext-openssl": "*",
+        "ext-simplexml": "*",
+        "ext-spl": "*",
+        "ext-xsl": "*",
+        "lib-libxml": "*",
+        "colinmollenhour/php-redis-session-abstract": "^2.0",
+        "composer/composer": "^2.0, !=2.2.16",
+        "guzzlehttp/guzzle": "^7.5",
+        "laminas/laminas-code": "^4.13.0",
+        "laminas/laminas-escaper": "^2.13.0",
+        "laminas/laminas-http": "^2.19.0",
+        "magento/laminas-mail": "^1.0.0",
+        "magento/laminas-mime": "^1.0.0",
+        "laminas/laminas-stdlib": "^3.18.0",
+        "laminas/laminas-uri": "^2.11.0",
+        "laminas/laminas-validator": "^2.43.0",
+        "laminas/laminas-servicemanager": "^3.22.1",
+        "magento/zendframework1": "^1.15",
+        "monolog/monolog": "^3.6",
+        "ramsey/uuid": "^4.2",
+        "symfony/console": "^7.0",
+        "symfony/process": "^7.0",
+        "tedivm/jshrink": "^1.4",
+        "webonyx/graphql-php": "^15.0",
+        "wikimedia/less.php": "^5.1",
+        "magento/composer-dependency-version-audit-plugin": "^0.1"
+    },
+    "suggest": {
+        "ext-imagick": "Use Image Magick >=3.0.0 as an optional alternative image processing library"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\Framework\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "require-dev": {
+        "nikic/php-parser": "^5.5"
+    }
+}
