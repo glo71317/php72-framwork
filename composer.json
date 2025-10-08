@@ -32,7 +32,7 @@
         "ext-spl": "*",
         "ext-xsl": "*",
         "lib-libxml": "*",
-        "colinmollenhour/php-redis-session-abstract": "^1.5",
+        "colinmollenhour/php-redis-session-abstract": "^2.0",
         "composer/composer": "^2.0, !=2.2.16",
         "guzzlehttp/guzzle": "^7.5",
         "laminas/laminas-code": "^4.13.0",
@@ -64,5 +64,8 @@
         "files": [
             "registration.php"
         ]
+    },
+    "require-dev": {
+        "nikic/php-parser": "^5.5"
     }
 }
