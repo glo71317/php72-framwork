@@ -7,16 +7,38 @@
         "AFL-3.0"
     ],
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": true
+        }
     },
-  "repositories": [
-      {
-        "type": "composer",
-        "url": "https://connect20-qa01.magedevteam.com/"
-      }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sandesh-as/laminas-uri.git"
+        }, {
+            "type": "vcs",
+            "url": "git@github.com:cod62627/laminas-http.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:del72683/laminas-loader.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sandesh-as/laminas-mail.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sandesh-as/laminas-mime.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://connect20-qa01.magedevteam.com/"
+        }
     ],
     "require": {
-        "php": "~8.2.0||~8.3.0||~8.4.0",
+        "php": "~8.2.0||~8.3.0||~8.4.0||~8.5.0",
         "ext-curl": "*",
         "ext-dom": "*",
         "ext-gd": "*",
@@ -31,12 +53,13 @@
         "composer/composer": "^2.0, !=2.2.16",
         "guzzlehttp/guzzle": "^7.5",
         "laminas/laminas-code": "^4.13.0",
+        "laminas/laminas-loader": "dev-Php-8.5-support as 2.10.0",
         "laminas/laminas-escaper": "^2.13.0",
-        "laminas/laminas-http": "^2.19.0",
-        "magento/laminas-mail": "^1.0.0",
-        "magento/laminas-mime": "^1.0.0",
+        "laminas/laminas-http": "dev-PHP8.5-support as 2.23.0",
+        "laminas/laminas-mail": "dev-php8.5_support",
+        "laminas/laminas-mime": "dev-php8.5_support",
         "laminas/laminas-stdlib": "^3.18.0",
-        "laminas/laminas-uri": "^2.11.0",
+        "laminas/laminas-uri": "dev-PHP8.5-support as 2.13.1",
         "laminas/laminas-validator": "^2.43.0",
         "laminas/laminas-servicemanager": "^3.22.1",
         "magento/zendframework1": "^1.15",
@@ -59,5 +82,7 @@
         "files": [
             "registration.php"
         ]
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
