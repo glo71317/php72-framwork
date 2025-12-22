@@ -15,13 +15,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:sandesh-as/laminas-uri.git"
-        }, {
-            "type": "vcs",
-            "url": "git@github.com:cod62627/laminas-http.git"
-        },
-        {
-            "type": "vcs",
             "url": "git@github.com:del72683/laminas-loader.git"
         },
         {
@@ -55,11 +48,11 @@
         "laminas/laminas-code": "^4.13.0",
         "laminas/laminas-loader": "dev-Php-8.5-support as 2.12.0",
         "laminas/laminas-escaper": "^2.13.0",
-        "laminas/laminas-http": "dev-PHP8.5-support as 2.23.0",
+        "laminas/laminas-http": "2.23.0",
         "laminas/laminas-mail": "dev-php8.5_support",
         "laminas/laminas-mime": "dev-php8.5_support",
         "laminas/laminas-stdlib": "^3.18.0",
-        "laminas/laminas-uri": "dev-PHP8.5-support as 2.13.1",
+        "laminas/laminas-uri": "2.14.0",
         "laminas/laminas-validator": "^2.43.0",
         "laminas/laminas-servicemanager": "^3.22.1",
         "magento/zendframework1": "^1.15",
